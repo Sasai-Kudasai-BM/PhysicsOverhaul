@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "net.skds.physo.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"minVersion": "0.8",
+	"client": [
+	],
+	"mixins": [
+		"ChunkSectionMixin",
+		"ChunkSerializerMixin",
+		"ChunkSourceInvoker",
+		"LevelChunkMixin",
+		"MinecraftServerMixin",
+		"ServerLevelMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

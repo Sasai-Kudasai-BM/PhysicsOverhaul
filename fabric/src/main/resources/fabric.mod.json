@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "physo",
+	"version": "${version}",
+	"name": "Physics Overhaul",
+	"description": "",
+	"authors": [
+		"Sasai_Kudasai_BM"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/physo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.skds.physo.fabric.PhysicsOverhaulFabric"
+		],
+		"client": [
+			"net.skds.physo.fabric.client.PhysicsOverhaulFabricClient"
+		]
+	},
+	"mixins": [
+		"physics_overhaul.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"architectury": ">=13.0.2",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
